@@ -1,0 +1,335 @@
+#worm-section .worm-header {
+     margin-bottom: 20px;
+}
+
+ #worm-section .worm-header img {
+       width:150px;
+
+    }
+
+#worm-section .worm-header p {
+    color:#000000;
+    margin: 0;
+}
+
+#worm-section .worm-header h2 {
+    margin-bottom: 0;
+}
+#worm-section h1.green {
+    color: #199a77;
+    font-size:30px;
+    margin-bottom:5px;
+    margin-top: 15px;
+}
+#worm-section h3.green {
+    color: #199a77;
+    text-align: center;
+}
+
+#worm-section .plus-img-wrap {
+    position: absolute;
+    width: 20px;
+    bottom: 5px;
+    left: 46%;
+    z-index: 2;
+}
+
+#worm-section .download-plus {
+    color: #199a77;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+
+#worm-section .sq-reveal-ele {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 20px;
+  border: 1px solid #000;
+}
+
+#worm-section .bug-copy, #worm-section .pdf-bug-copy {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 0 15px 51px 15px;
+
+}
+
+  #worm-section .bug-copy ul {
+        margin: 0;
+    }
+
+
+
+#worm-section .bug-copy li {
+   margin: 2px 0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+
+#worm-section .bug-copy h4 {
+   margin-bottom: 0;
+    color: #000000;
+
+}
+
+
+#worm-section  .copy-wrap.open {
+      max-height: 100%;
+  }
+
+  #worm-section .plus-minus::after {
+    display: block;
+    width: 100%;
+    content: '+';
+    color: #199a77;
+    font-weight: 700;
+    font-size: 38px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+
+    #worm-section .plus-minus.hide-plus::after, #worm-section .open .plus-minus.hide-plus::after {
+    display: block;
+    width: 100%;
+    content: '';
+    color: #199a77;
+    font-weight: 700;
+    font-size: 38px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+#worm-section .open .plus-minus::after {
+  display: block;
+  width: 100%;
+  content: '-';
+  color: #199a77;
+  font-weight: 700;
+  font-size: 26px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+#worm-section .plus-wrap, #worm-section .pdf-plus-wrap {
+    padding: 0 15px;
+    position: absolute;
+    width: 96%;
+    bottom: 0;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+
+#worm-section .copy-wrap {
+    cursor: pointer;
+    padding: 0 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    max-height: 94px;
+    overflow: hidden;
+    -webkit-transition: max-height .5s;
+    -moz-transition: max-height .5s;
+    -ms-transition: max-height .5s;
+    -o-transition: max-height .5s;
+    transition: max-height .5s;
+}
+
+
+
+
+#worm-section .bug-form {
+    margin-top: 40px;
+
+}
+
+
+#worm-section .bug-form h4 {
+    color: #199a77;
+    font-size:16px;
+}
+
+
+#worm-section .bug-form input {
+    border: 1px solid #a5a7af;
+    background-color: #fff;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-right:5px;
+    display: inline-block;
+    width: 62%;
+    height: 40px;
+}
+
+    #worm-section .bug-input {
+        display: block;
+    }
+
+#worm-section .bug-form a {
+    border: 1px solid #199a77;
+    background-color: #199a77;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#worm-section .bug-form sup {
+    font-size: 75%;
+}
+
+ #worm-section .bug-thankyou {
+       display:none;
+
+    }
+
+
+   #worm-section .bug-legal {
+     margin-top:40px;
+ }
+
+
+  #worm-section .bug-legal p {
+     font-size: 12px;
+     line-height: 20px;
+     margin: 5px 0;
+ }
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    #worm-section h1.green {
+        margin-top: 45px;
+}
+    #worm-section .bug-input {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+      #worm-section .bug-form input {
+        width: 190px;
+    }
+
+       #worm-section .worm-header img {
+         float:right;
+    }
+
+    #worm-section .bug-thankyou {
+        text-align: center;
+
+    }
+
+    #worm-section .bug-form h4 {
+        text-align: center;
+    }
+
+
+
+    #worm-section .sq-reveal-ele {
+      margin-left: 0;
+      margin-right: 0;
+      width: 360px;
+      margin: 10px auto 0 auto;
+    }
+
+    #worm-section .plus-wrap, #worm-section .pdf-plus-wrap  {
+        width: 331px;
+        margin: 0 auto;
+}
+
+    #worm-section .copy-wrap {
+       width: 360px;
+}
+
+      #worm-section .this-hover {
+        color:#55565a;
+    }
+
+     #worm-section .this-hover .plus-minus::after {
+        color:#55565a;
+    }
+
+     #worm-section .this-hover h3.green {
+        color:#55565a ;
+    }
+
+     #worm-section .open.this-hover h3.green {
+        color:#199a77;
+    }
+
+     #worm-section .open.this-hover .plus-minus::after {
+        color:#199a77;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 893px) {
+
+     #worm-section .sq-reveal-ele {
+      margin-left: 0;
+      margin-right: 0;
+      width: 361px;
+       margin: 10px auto 0 auto;
+    }
+
+    #worm-section .plus-wrap,  #worm-section .pdf-plus-wrap {
+        margin: 0 auto;
+}
+
+    #worm-section .copy-wrap {
+       width: 361px;
+}
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+    #worm-section .sq-reveal-ele {
+      margin-left: 0;
+      margin-right: 0;
+      width: 360px;
+       margin: 10px auto 0 auto;
+    }
+
+    #worm-section .plus-wrap,  #worm-section .pdf-plus-wrap {
+        margin: 0 auto;
+    }
+
+    #worm-section .copy-wrap {
+       width: 360px;
+}
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+
+
+}
